@@ -5,7 +5,7 @@ from app import create_app, db
 from app.models import User, Role, Permission
 
 app = create_app(os.getenv('FLASK_CONFIG') or 'default')
-migrate = Migrate(app, db)
+migrate = Migrate(app, db,compare_type=True)
 
 
 @app.shell_context_processor

@@ -1,0 +1,10 @@
+set FLASK_APP=flasky.py
+set FLASK_DEBUG=1
+set MAIL_USERNAME=flaskteam10@gmail.com
+set MAIL_PASSWORD=flaskteam2021
+set FLASKY_ADMIN=flaskteam10@gmail.com
+flask db upgrade
+flask run
+
+/* NOTE */
+Update database => run flask db migrate
