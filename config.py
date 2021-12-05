@@ -1,7 +1,8 @@
 import os
 basedir = os.path.abspath(os.path.dirname(__file__))
 
-print(os.environ.get('MAIL_USERNAME'),os.environ.get('MAIL_PASSWORD'))
+print(os.environ.get('MAIL_USERNAME'),os.environ.get('MAIL_PASSWORD'),os.environ.get('FLASKY_ADMIN'))
+
 class Config:
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'hard to guess string'
     MAIL_SERVER = os.environ.get('MAIL_SERVER', 'smtp.googlemail.com')
@@ -14,7 +15,10 @@ class Config:
     FLASKY_MAIL_SENDER = 'Flasky Admin <flasky@example.com>'
     FLASKY_ADMIN = os.environ.get('FLASKY_ADMIN')
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-
+    FLASKY_POSTS_PER_PAGE = 10
+    FLASKY_FOLLOWERS_PER_PAGE = 50
+    FLASKY_COMMENTS_PER_PAGE = 30
+    FLASKY_SLOW_DB_QUERY_TIME = 0.5
     @staticmethod
     def init_app(app):
         pass
