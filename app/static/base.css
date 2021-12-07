@@ -1,0 +1,46 @@
+.navbar-icon:hover {
+    text-decoration: none;
+    margin: auto;
+}
+
+.font-size-nav{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--text-color) !important;
+    height: 100%;
+    line-height: 34px !important;
+}
+
+.font-size-logo{
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--text-color) !important;
+    line-height: 2.5rem;
+}
+
+.nav-item:hover{
+    background-color: var(--white-color) !important;
+}
+
+.dropdown-menu-item:hover{
+    background-color: var(--primary-color) !important;
+}
+
+.dropdown-menu-text{
+    /* width: 160px; */
+    text-align: left;
+    padding-right: 32px !important;
+}
+
+.dropdown-menu-text:focus{
+    background-color: var(--white-color) !important
+}
+
+.pd-icon-menu{
+    padding: 5px 16px 5px 5px;
+}
+
+.logo-account, .logo-logIn, .logo-global{
+    font-size: 25px;
+    padding: 0px 10px 0px 0px;
+}

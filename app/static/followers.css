@@ -1,0 +1,30 @@
+.page-header{
+    border-bottom: 2px solid var(--primary-color) !important;
+    margin-bottom: 50px !important;
+}
+
+.img-avatar{
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+}
+
+.row-data{
+    border-bottom: 3px solid var(--text-color);
+}
+
+.table-header{
+    border-bottom: 3px solid var(--extra-color);
+}
+
+.row-data:hover{
+    background-color: var(--extra-color) !important;
+    color: var(--text-color);
+}
+
+.username{
+    margin-left: 10px;
+}
+
+.time-follow{
+    padding-top: 14px !important;
+}

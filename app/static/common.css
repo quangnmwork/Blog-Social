@@ -1,0 +1,29 @@
+:root{
+    --primary-color: #FDB511;
+    --text-color: #211931;
+    --extra-color: #89afb2;
+    --hover-navbar: #9A9A9A;
+    --white-color: white;
+}
+
+.background-primary{
+    background-color: var(--primary-color) !important;
+}
+
+.pd-0{
+    padding: 0px;
+}
+
+.pd-5-important{
+    padding: 5px !important;
+}
+
+.pd-5{
+    padding: 5px;
+}
+
+.height-57{
+    height: 57px !important;
+}
+
+

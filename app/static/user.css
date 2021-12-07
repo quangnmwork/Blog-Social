@@ -1,0 +1,105 @@
+.img-avatar{
+    border-radius: 50%;
+}
+
+.page-header{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid var(--primary-color) !important;
+    padding-bottom: 40px !important;
+    margin: 40px 0px 80px 0px !important;
+}
+
+.profile-header{
+    margin: 20px 0px 0px 150px;
+}
+
+.name{
+    margin: 5px auto;
+    font-size: 1.6rem;
+    margin-top: 15px;
+}
+
+.address{
+    margin: 8px auto;
+    font-size: 1.6rem;
+}
+
+.email-admin{
+    margin: 8px auto;
+    font-size: 1.6rem;
+}
+
+.about-me{
+    margin: 8px auto;
+    font-size: 1.6rem;
+}
+
+.time-activate{
+    margin: 8px auto;
+    font-size: 1.6rem;
+}
+
+.number-post{
+    margin: 8px auto;
+    font-size: 1.6rem;
+}
+
+.user-header{
+    display: flex;
+    align-items: center;
+}
+
+.user-name{
+    margin: 0;
+}
+
+.btn-edit{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    margin-left: 30px;
+}
+
+.follow-all{
+    margin-top: 20px;
+}
+
+.btn-edit:hover{
+    color: var(--text-color);
+}
+
+.follow-me{
+    color: var(--text-color);
+    margin-right: 10px;
+}
+
+.follow-me:hover{
+    text-decoration: none;
+}
+
+.badge{
+    background-color: var(--primary-color) !important;
+}
+
+.btn-follow{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.follow-btn{
+    margin-right: 10px;
+}
+
+.btn-follow:hover{
+    color: var(--text-color);
+}
+
+.btn-unfollow{
+    background-color: var(--text-color);
+    color: var(--white-color);
+}
+
+.btn-unfollow:hover{
+    color: var(--primary-color) !important;
+}
+

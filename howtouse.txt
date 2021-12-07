@@ -1,0 +1,24 @@
+pip install virtualenv
+py -m venv venv
+virtualenv -p "C:\Users\GF63 THIN 9RCX\AppData\Local\Programs\Python\Python36\python.exe" venv
+
+set FLASK_APP=flasky.py
+set FLASK_DEBUG=1
+set MAIL_USERNAME=flaskteam10@gmail.com
+set MAIL_PASSWORD=flask2021
+set FLASKY_ADMIN=flaskteam10@gmail.com
+flask db upgrade
+flask db migrate
+flask shell
+Role.insert_roles()
+Role.query.all()
+from app import fake
+fake.users(100)
+fake.posts(100)
+
+crtl + Z => enter
+
+flask run
+
+/* NOTE */
+Update database => run flask db migrate

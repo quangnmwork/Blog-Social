@@ -1,0 +1,104 @@
+.posts{
+    padding: 0;
+}
+
+.post{
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid var(--text-color);
+    border-radius: 5px;
+    
+}
+
+.post-header{
+    display: flex;
+}
+
+.header-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    align-items: flex-start;
+}
+
+.img-avatar{
+    border-radius: 50%;
+    border: 3px solid var(--primary-color);
+}
+
+.post-author{
+    text-align: left;
+}
+
+.name-author{
+    color: var(--text-color) !important;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.post-date{
+    font-size: 1.4rem;
+    padding-right: 10px;
+}
+
+.post-content{
+    margin: 10px 0px 5px 0px;
+}
+
+.post-body{
+    background-color: var(--white-color);
+    border: 2px solid var(--extra-color);
+    border-radius: 4px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.post-footer{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0px 5px 0px;
+}   
+
+.footer-item{
+    margin: auto 10px;
+}
+
+.footer-item:hover{
+    text-decoration: none; 
+}
+
+.label{
+    border-radius: 2px;
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+.label-edit {
+    background-color: var(--primary-color);
+}
+
+.label-edit-admin {
+    background-color: var(--primary-color);
+}
+
+.label-detail {
+    background-color: var(--primary-color);
+}
+
+.fa-info-circle{
+    padding-bottom: 4px;
+}
+
+.label-primary{
+    background-color: var(--primary-color);
+}
+
+.footer-icon{
+    color: var(--text-color);
+    font-size: 15px;
+}
+
+.label:hover{
+    color: var(--text-color) !important;
+}
