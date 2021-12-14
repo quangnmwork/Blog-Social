@@ -103,3 +103,11 @@
     color: var(--primary-color) !important;
 }
 
+.follow-you:hover{
+
+    color: var(--white-color) !important;
+
+    cursor: text;
+
+}
+
