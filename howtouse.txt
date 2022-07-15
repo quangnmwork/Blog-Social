@@ -1,7 +1,8 @@
 pip install virtualenv
 py -m venv venv
-virtualenv -p "C:\Users\GF63 THIN 9RCX\AppData\Local\Programs\Python\Python36\python.exe" venv
+virtualenv -p "C:\Users\PC\AppData\Local\Programs\Python\Python37\python.exe" venv
 
+$env:FLASK_APP = "flasky.py"
 set FLASK_APP=flasky.py
 set FLASK_DEBUG=1
 set MAIL_USERNAME=flaskteam10@gmail.com
