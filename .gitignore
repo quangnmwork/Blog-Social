@@ -3,6 +3,9 @@
 # C extensions
 *.so
 
+# Checkpoint
+model.ckpt
+
 # Packages
 *.egg
 *.egg-info

@@ -14,7 +14,7 @@
             </div>
         </div>
         <div class="comment-content">
-            <div class="comment-body">
+            <div class="comment-body {{comment.color}}">
                 {% if comment.disabled %}
                 <p><i>This comment has been disabled by a moderator.</i></p>
                 {% endif %}
@@ -26,6 +26,7 @@
                     {% endif %}
                 {% endif %}
             </div>
+            <span class="badge bg-{{comment.color}}" style="cursor: pointer;">#{{ comment.color }}</span>
             {% if moderate %}
                 <div class="button-control">
                     {% if comment.disabled %}

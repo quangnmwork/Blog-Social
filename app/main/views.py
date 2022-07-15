@@ -6,6 +6,7 @@ from flask_login import login_required, current_user
 from .forms import EditProfileForm,EditProfileAdminForm,PostForm,CommentForm
 from ..decorators import admin_required, permission_required
 from .. import db
+from ..torch_util import dl_model, CFG
 
 @main.route('/', methods=['GET', 'POST'])
 def index():
@@ -106,7 +107,9 @@ def post(id):
     post = Post.query.get_or_404(id)
     form = CommentForm()
     if form.validate_on_submit():
+        print(CFG.stoi[dl_model.hf_predict(form.body.data)[0]['label']])
         comment = Comment(body=form.body.data,
+                          color = CFG.stoi[dl_model.hf_predict(form.body.data)[0]['label']],
                           post=post,
                           author=current_user._get_current_object())
         db.session.add(comment)

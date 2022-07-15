@@ -38,6 +38,7 @@
     border-radius: 2px;
     padding: 5px;
     margin: 10px 5px;
+    font-size: medium;
 }
 
 .btn-enable{
@@ -60,4 +61,37 @@
 
 .button-control{
     margin-left: 5px;
+}
+
+.badge{
+    display: inline-block;
+    padding: 7px 10px;
+    margin: 10px 5px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 1rem;
+}
+
+.bg-sadness{
+    background-color: #214F9A;
+}
+.bg-joy{
+    background-color: #F2A40B;
+}
+.bg-love{
+    background-color: #de6178;
+}
+.bg-anger{
+    background-color: #AE2223;
+}
+.bg-fear{
+    background-color: #903F8E;
+}
+.bg-surprise{
+    background-color: #0D8F4A;
 }
